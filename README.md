@@ -77,13 +77,13 @@ Extract :
 Fichier de sortie : data/temp/extracted_data.csv.
 Transform :
 
-**Nettoyage et enrichissement des données.
+**Nettoyage et enrichissement des données.**
 Fichier de sortie : data/temp/transformed_data.csv.
 Load :
 
 ##Chargement des données transformées dans une base de données ou un fichier final.
 
-##Configuration et Exécution
+**Configuration et Exécution**
 ##Configuration des Services :
 
 ##Placez le fichier docker/docker-compose.yml à la racine du projet.
@@ -94,12 +94,12 @@ Configurez les variables d'environnement dans .env.
 bash
 Copier le code
 docker-compose up -d
-##Accéder aux Interfaces :
+**Accéder aux Interfaces :**
 
-##Airflow : http://localhost:8080
-##Prometheus : http://localhost:9090
-##Grafana : http://localhost:3000
-##Exécuter le Pipeline :
+**Airflow : http://localhost:8080**
+**Prometheus : http://localhost:9090**
+**Grafana : http://localhost:3000**
+**Exécuter le Pipeline :
 
 Accédez à l'interface Airflow.
 Activez le DAG etl_pipeline.
