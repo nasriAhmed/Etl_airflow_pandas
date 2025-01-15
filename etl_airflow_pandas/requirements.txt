@@ -1,0 +1,4 @@
+pandas
+apache-airflow==2.6.1
+prometheus-client
+pytest
