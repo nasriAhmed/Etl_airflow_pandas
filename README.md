@@ -135,15 +135,6 @@ pytest tests/
 - Temps d'exécution des étapes ETL.  
 - Nombre d'exécutions réussies et échouées.  
 
----
-
-## Améliorations Futures
-
-- Support pour des sources de données multiples (APIs, NoSQL, etc.).  
-- Ajout de tests d'intégration pour le pipeline complet.  
-- Visualisation avancée des données transformées.  
-
----
 
 ## Auteur
 
